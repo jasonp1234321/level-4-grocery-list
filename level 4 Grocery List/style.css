@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .contains{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img{
+    padding: none;
+  }
+  
+  .name{
+    text-decoration: 30pt;
+    text-align: center;
+    font-size: 40pt;
+    color: red;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
+  h2{
+    text-decoration: 20pt;
+    text-align: center;
+    font-size: 40pt;
+    color: red;
+    font-family: Bradley Hand, cursive;
+  }
+  
+  .groceryOut{
+    font-size: 20pt;
+    color: red;
+    font-family: Rockwell, sans-serif;
+    text-align: center;
+    border-radius: 1%;
+  }
+  
+  form{
+    text-align: center;
+  }
+  
+  textarea{
+    background-color: #E5F3E9;
+  }
+  
+  .button{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 27px;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: Jazz LET, fantasy;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
